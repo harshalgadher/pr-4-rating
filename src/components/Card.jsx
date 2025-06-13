@@ -126,7 +126,7 @@ export const Card = () => {
 
           <div className="w-full flex justify-center pb-3">
             <button
-              className="text-2xl text-center p-3 font-semibold bg-blue-100 rounded flex items-center justify-center text-blue-600 cursor-pointer hover:bg-blue-600 hover:text-blue-100 transition-all duration-75"
+              className="text-2xl text-center p-3 font-semibold bg-red-100 rounded flex items-center justify-center text-red-600 border-2 border-red-400 cursor-pointer hover:bg-red-600 hover:text-blue-100 transition-all duration-75"
               onClick={() => {
                 setShowCard(false);
               }}
